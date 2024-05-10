@@ -70,7 +70,7 @@ a:hover {
 
 /* adds space between nav links */
 nav a {
-  margin-right: center; /* centers nav links */
+  margin-right: auto; /* centers nav links */
 }
 
 nav {
