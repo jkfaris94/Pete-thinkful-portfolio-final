@@ -67,3 +67,12 @@ a {
 a:hover {
   color: #F77F00;
 }
+
+.nav-container a {
+  margin-right: 15px; /* Adjust margin value for desired spacing */
+  /* Alternatively, use margin-left for space on the left side */
+}
+
+.nav-container a:last-child {  /* Optional: Remove margin from last item */
+  margin-right: 0;
+}
