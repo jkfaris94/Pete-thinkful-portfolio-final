@@ -1,6 +1,6 @@
 /* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet. You don't have to edit this line.*/
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
-
+/* The CSS below is what is used to create the page layout grid. */
 body {
   color: #003049;
   font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
@@ -8,7 +8,7 @@ body {
   background-color: #eae2b7;
 }
 
-/* Set the font family for any h1, h2, or h3 heading */
+/* Sets the font family for  h1, h2, or h3 heading */
 h1,
 h2,
 h3 {
@@ -16,15 +16,16 @@ h3 {
   text-align: center;
 }
 
+/* creates padding between sections*/
 article {
   padding: 50px 0;
 }
-
+/* circle image adjustments */
 article div {
   text-align: center;
   width: 100%;
 }
-
+/* sets space between text lines */
 p {
   line-height: 1.5;
 }
@@ -34,7 +35,7 @@ div {
   margin: auto;
   width: 600px;
 }
-
+/* adjusts portfolio images*/
 img {
   display: block;
   margin-left: auto;
@@ -43,26 +44,31 @@ img {
   max-width: 200px;
   height: auto;
 }
-
+/* creates solid black pagebreak */
 hr {
   border: 1px solid black;
 }
 
-/* Add your solution below */
-
+/* creates the image circle */
 .image-circle {
   border: 2px solid #003049;
   border-radius: 50%;
 }
 
+/* center header and footer plus text features */
 header, footer {
   text-align: center;
 }
-
+/* link color and hover features */
 a {
   color: #D62828;
 }
 
 a:hover {
   color: #F77F00;
+}
+
+/* adds space between nav links */
+nav a {
+   padding: 15px;
 }
